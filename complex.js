@@ -31,7 +31,7 @@ iframe.allowfullscreen = true;  // Optional: allows full-screen mode
 // Append the iframe to the body (or any other container)
 document.body.appendChild(iframe);
 
-await sleep(3000);  // Sleep for 2 seconds (2000 ms)
+await sleep(2000);  // Sleep for 2 seconds (2000 ms)
 
 fetch('https://www.snapfish.com/library/getOauthInfo', {
   method: 'GET'
